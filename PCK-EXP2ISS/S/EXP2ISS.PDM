@@ -1,0 +1,645 @@
+[Root]
+Most Recent Package=EXP2ISS
+Most Recent Deploy=EXP2ISS
+
+
+[Package|PP-EXP To iSmartSales|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\ICM\ISS-PP\PP-EXP2ISS\Package
+
+[Package|PP-EXP To iSmartSales|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|PP-EXP To iSmartSales|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|PP-EXP To iSmartSales|Files Found]
+
+[Package|PP-EXP To iSmartSales|Files Released]
+
+[Package|PP-EXP To iSmartSales|Missing Dependency Information]
+C:\WINDOWS\system32\cdosys.dll=
+
+[Package|PP-EXP To iSmartSales|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+
+[Package|PP-EXP To iSmartSales|Files Added]
+
+[Package|PP-EXP To iSmartSales|Files Removed]
+
+[Package|PP-EXP To iSmartSales|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\cdosys.dll=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\ICM\ISS-PP\PP-EXP2ISS\S\EXP2ISS.exe=Yes
+
+[Package|PP-EXP To iSmartSales|Configure Registry Files]
+Applicable=No
+
+[Package|PP-EXP To iSmartSales|Configure Remote Servers]
+Applicable=No
+
+[Package|PP-EXP To iSmartSales|Install Locations]
+C:\ICM\EXP2ISS\S\EXP2ISS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\cdosys.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\ICM\PP-EXP2ISS\S\EXP2ISS.exe=$(AppPath)
+C:\ICM\ISS-PP\PP-EXP2ISS\S\EXP2ISS.exe=$(AppPath)
+
+[Package|PP-EXP To iSmartSales|Configure Shared Files]
+Applicable=Yes
+C:\ICM\EXP2ISS\S\EXP2ISS.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\ICM\PP-EXP2ISS\S\EXP2ISS.exe=No
+C:\ICM\ISS-PP\PP-EXP2ISS\S\EXP2ISS.exe=No
+
+[Package|PP-EXP To iSmartSales|Distribution]
+Type=single
+Size=
+Title=EXP To iSmartSales
+
+[Package|PP-EXP To iSmartSales|IconGroups]
+Group0=EXP To iSmartSales
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|PP-EXP To iSmartSales|EXP To iSmartSales]
+Icon1=EXP2ISS.exe
+Title1=EXP To iSmartSales
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|PP-EXP To iSmartSales|Package]
+PackageFolder=C:\ICM\ISS-PP\PP-EXP2ISS\Package
+ProjectFolder=C:\ICM\ISS-PP\PP-EXP2ISS\S
+ServerSideCab=
+File1=C:\ICM\ISS-PP\PP-EXP2ISS\Package\setup.exe
+File2=C:\ICM\ISS-PP\PP-EXP2ISS\Package\Setup.Lst
+File3=C:\ICM\ISS-PP\PP-EXP2ISS\Package\EXP2ISS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup TYY Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\ISS-TYY\Thairath-EXP2ISS\S\Package
+
+[Package|Standard Setup TYY Package|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+
+[Package|Standard Setup TYY Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup TYY Package|Files Found]
+
+[Package|Standard Setup TYY Package|Files Released]
+
+[Package|Standard Setup TYY Package|Missing Dependency Information]
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\cdosys.dll=
+C:\Program Files\Common Files\System\ado\msado28.tlb=
+
+[Package|Standard Setup TYY Package|Out-of-Date Dependency Information]
+
+[Package|Standard Setup TYY Package|Files Added]
+
+[Package|Standard Setup TYY Package|Files Removed]
+
+[Package|Standard Setup TYY Package|Files In Project]
+C:\ISS-TYY\Thairath-EXP2ISS\S\EXP2ISS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado28.tlb=Yes
+C:\WINDOWS\system32\cdosys.dll=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup TYY Package|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup TYY Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup TYY Package|Install Locations]
+C:\ISS-TYY\Thairath-EXP2ISS\S\EXP2ISS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado28.tlb=$(WinSysPath)
+C:\WINDOWS\system32\cdosys.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup TYY Package|Configure Shared Files]
+Applicable=Yes
+C:\ISS-TYY\Thairath-EXP2ISS\S\EXP2ISS.exe=No
+
+[Package|Standard Setup TYY Package|Distribution]
+Type=single
+Size=
+Title=TYY2ISS
+
+[Package|Standard Setup TYY Package|IconGroups]
+Group0=TYY2ISS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup TYY Package|TYY2ISS]
+Icon1=EXP2ISS.exe
+Title1=TYY2ISS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup TYY Package|Package]
+PackageFolder=C:\ISS-TYY\Thairath-EXP2ISS\S\Package
+ProjectFolder=C:\ISS-TYY\Thairath-EXP2ISS\S
+ServerSideCab=
+File1=C:\ISS-TYY\Thairath-EXP2ISS\S\Package\setup.exe
+File2=C:\ISS-TYY\Thairath-EXP2ISS\S\Package\Setup.Lst
+File3=C:\ISS-TYY\Thairath-EXP2ISS\S\Package\EXP2ISS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|EXP To iSmartSales]
+Icon1=EXP2ISS.exe
+Title1=EXP To iSmartSales
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\ICM\ISS-TYY\Thairath-EXP2ISS\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Windows\System32\cdosys.dll=
+C:\Program Files\Common Files\System\ado\msado28.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado28.tlb=Yes
+C:\WINDOWS\system32\cdosys.dll=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\ICM\ISS-TYY\Thairath-EXP2ISS\S\EXP2ISS.exe=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\ISS-TYY\Thairath-EXP2ISS\S\EXP2ISS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado28.tlb=$(WinSysPath)
+C:\WINDOWS\system32\cdosys.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\ICM\ISS-TYY\Thairath-EXP2ISS\S\EXP2ISS.exe=$(AppPath)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\ISS-TYY\Thairath-EXP2ISS\S\EXP2ISS.exe=No
+C:\ICM\ISS-TYY\Thairath-EXP2ISS\S\EXP2ISS.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=EXP2ISS
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\ICM\ISS-TYY\Thairath-EXP2ISS\Package
+ProjectFolder=C:\ICM\ISS-TYY\Thairath-EXP2ISS\S
+ServerSideCab=
+File1=C:\ICM\ISS-TYY\Thairath-EXP2ISS\Package\setup.exe
+File2=C:\ICM\ISS-TYY\Thairath-EXP2ISS\Package\Setup.Lst
+File3=C:\ICM\ISS-TYY\Thairath-EXP2ISS\Package\EXP2ISS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=EXP2ISS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|EXP2ISS]
+Icon1=EXP2ISS.exe
+Title1=EXP2ISS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package exp2iss|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\ICM\ISS-PCKem\PCK-EXP2ISS
+
+[Package|Standard Setup Package exp2iss|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package exp2iss|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package exp2iss|Files Found]
+
+[Package|Standard Setup Package exp2iss|Files Released]
+
+[Package|Standard Setup Package exp2iss|Missing Dependency Information]
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\cdosys.dll=
+C:\Program Files\Common Files\System\ado\msado28.tlb=
+C:\Windows\SysWOW64\cdosys.dll=
+C:\Program Files (x86)\Common Files\system\ado\msado28.tlb=
+
+[Package|Standard Setup Package exp2iss|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package exp2iss|Files Added]
+
+[Package|Standard Setup Package exp2iss|Files Removed]
+
+[Package|Standard Setup Package exp2iss|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\ICM\ISS-PCKem\PCK-EXP2ISS\S\EXP2ISS.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Program Files (x86)\Common Files\system\ado\msado28.tlb=Yes
+C:\Windows\SysWOW64\cdosys.dll=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package exp2iss|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package exp2iss|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package exp2iss|Install Locations]
+C:\ISS-TYY\Thairath-EXP2ISS\S\EXP2ISS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado28.tlb=$(WinSysPath)
+C:\WINDOWS\system32\cdosys.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\ICM\ISS-PCKem\PCK-EXP2ISS\S\EXP2ISS.exe=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Common Files\system\ado\msado28.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\cdosys.dll=$(WinSysPath)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package exp2iss|Configure Shared Files]
+Applicable=Yes
+C:\ISS-TYY\Thairath-EXP2ISS\S\EXP2ISS.exe=No
+D:\ICM\ISS-PCKem\PCK-EXP2ISS\S\EXP2ISS.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Standard Setup Package exp2iss|Distribution]
+Type=single
+Size=
+Title=EXP2ISS
+
+[Package|Standard Setup Package exp2iss|IconGroups]
+Group0=EXP2ISS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package exp2iss|EXP2ISS]
+Icon1=EXP2ISS.exe
+Title1=EXP2ISS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package exp2iss|Package]
+PackageFolder=d:\ICM\ISS-PCKem\PCK-EXP2ISS
+ProjectFolder=D:\ICM\ISS-PCKem\PCK-EXP2ISS\S
+ServerSideCab=
+File1=d:\ICM\ISS-PCKem\PCK-EXP2ISS\setup.exe
+File2=d:\ICM\ISS-PCKem\PCK-EXP2ISS\Setup.Lst
+File3=d:\ICM\ISS-PCKem\PCK-EXP2ISS\EXP2ISS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Folder Deployment 1|Root]
+Package=Standard Setup Package exp2iss
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard
+
+[Deploy|EXP2ISS|Root]
+Package=Standard Setup Package exp2iss
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard
+
+
+[Package|EXP2ISS|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\ICM\ISS-PCKem\PCK-EXP2ISS\S\Package
+
+[Package|EXP2ISS|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|EXP2ISS|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|EXP2ISS|Files Found]
+
+[Package|EXP2ISS|Files Released]
+
+[Package|EXP2ISS|Missing Dependency Information]
+C:\Windows\SysWOW64\cdosys.dll=
+C:\Program Files (x86)\Common Files\system\ado\msado28.tlb=
+
+[Package|EXP2ISS|Out-of-Date Dependency Information]
+
+[Package|EXP2ISS|Files Added]
+
+[Package|EXP2ISS|Files Removed]
+
+[Package|EXP2ISS|Files In Project]
+D:\ICM\ISS-PCKem\PCK-EXP2ISS\S\EXP2ISS.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\VB5DB.DLL=Yes
+C:\Program Files (x86)\Common Files\system\ado\msado28.tlb=Yes
+C:\Windows\SysWOW64\cdosys.dll=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|EXP2ISS|Configure Registry Files]
+Applicable=No
+
+[Package|EXP2ISS|Configure Remote Servers]
+Applicable=No
+
+[Package|EXP2ISS|Install Locations]
+D:\ICM\ISS-PCKem\PCK-EXP2ISS\S\EXP2ISS.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\system\ado\msado28.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\cdosys.dll=$(WinSysPath)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|EXP2ISS|Configure Shared Files]
+Applicable=Yes
+D:\ICM\ISS-PCKem\PCK-EXP2ISS\S\EXP2ISS.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|EXP2ISS|Distribution]
+Type=single
+Size=
+Title=EXP2ISS
+
+[Package|EXP2ISS|IconGroups]
+Group0=EXP2ISS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|EXP2ISS|EXP2ISS]
+Icon1=EXP2ISS.exe
+Title1=EXP2ISS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|EXP2ISS|Package]
+PackageFolder=D:\ICM\ISS-PCKem\PCK-EXP2ISS\S\Package
+ProjectFolder=D:\ICM\ISS-PCKem\PCK-EXP2ISS\S
+ServerSideCab=
+File1=D:\ICM\ISS-PCKem\PCK-EXP2ISS\S\Package\setup.exe
+File2=D:\ICM\ISS-PCKem\PCK-EXP2ISS\S\Package\Setup.Lst
+File3=D:\ICM\ISS-PCKem\PCK-EXP2ISS\S\Package\EXP2ISS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

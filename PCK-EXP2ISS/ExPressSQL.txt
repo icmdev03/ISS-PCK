@@ -1,0 +1,30 @@
+Customer
+SELECT '05', cuscod, cuscod, prenam+' '+cusnam, addr01+addr02+addr03, areacod, contact, telnum, taxid, crline, crline-balance, balance, 0, '', 0, paycond, paytrm, remark, custyp, '', '', 0
+FROM ARMAS
+
+CustomerSalesman
+SELECT '05', cuscod, slmcod
+FROM ARMAS
+WHERE slmcod is not null and slmcod <> ''
+
+
+CustomerGroup
+SELECT DISTINCT '05', custyp, typdes
+FROM ARMAS, ISTAB
+WHERE ISTAB.tabtyp = '45'
+AND ISTAB.typcod = ARMAS.custyp
+
+
+Product
+SELECT '05', stkcod, stkdes, stkgrp, '', squcod, '', '', '', 1, 0, 0, 0, sellpr1, 0, 0, 0,  7, '', ''
+FROM STMAS
+
+
+ItemGroup
+SELECT '05', typcod, typdes
+FROM ISTAB
+WHERE tabtyp = '22'
+
+Salesman
+SELECT '05', slmcod, '', slmnam, 'AIT', 'ALL'
+FROM OESLM
