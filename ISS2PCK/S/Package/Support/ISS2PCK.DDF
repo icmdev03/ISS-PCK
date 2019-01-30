@@ -1,0 +1,41 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="ISS2PCK.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"ISS2PCK.exe"
+"msvbvm60.dll"
+"OLEAUT32.DLL"
+"OLEPRO32.DLL"
+"ASYCFILT.DLL"
+"STDOLE2.TLB"
+"COMCAT.DLL"
+"DAO350.DLL"
+"MSJET35.DLL"
+"MSJTER35.DLL"
+"MSJINT35.DLL"
+"vbajet32.dll"
+"expsrv.dll"
+"MSRD2X35.DLL"
+"MSREPL35.DLL"
+"MSVCRT40.DLL"
+"VB5DB.DLL"
+"cdosys.dll"
+"msado28.tlb"
+"scrrun.dll"
+"MSVCRT.DLL"
+"MSADODC.OCX"
+"MSSTDFMT.DLL"
+"COMCTL32.OCX"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
