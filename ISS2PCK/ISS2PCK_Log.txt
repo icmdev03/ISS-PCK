@@ -1,3 +1,4 @@
+BBBBBBBBBBBBBBB
 "17/10/2561 10:28:52: Program Start. . ."
 "17/10/2561 10:28:52: Database: ISSMASTERDEMO"
 "17/10/2561 10:28:52: WorkingDir: D:\VBfile_all\ISS-PCK\ISS2PCK"
